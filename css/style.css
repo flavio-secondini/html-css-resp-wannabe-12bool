@@ -1,0 +1,52 @@
+/* COMMON */
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+.row {
+  /* NOTE: width in pixel modificata in percentuale per avere uno sfondo responsive */
+  width: 100%;
+  margin-top: 100px;
+}
+
+img {
+  height: 200px;
+}
+
+#lezioni, #steps, #why {
+  text-align: center;
+}
+
+/* IMMAGINI */
+
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* RESPONSIVE */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+  .row {
+    margin-top: 0;
+  }
+
+}
+
+@media all and (max-width: 767px) {
+
+  .row {
+    margin-top: 0;
+  }
+
+}
